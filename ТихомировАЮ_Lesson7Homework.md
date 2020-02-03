@@ -88,7 +88,7 @@ microsoft-ds    445/tcp                         # Microsoft Naked CIFS
   - исполняемый файл находится в директории `/usr/sbin/smbd`.
 
 ```ShellSession
-cbpi@ubuntu-vbox:~ $ pstree -ps 1208
+cbpi@ubuntu-vbox:~ $ pstree -ps 1201
 systemd(1)---smbd(1201)-T-cleanupd(1205)
                         +-lpqd(1206)
                         L-smbd-notifyd(1204)
@@ -635,7 +635,7 @@ tcp        0      0 0.0.0.0:4545            0.0.0.0:*               LISTEN      
 
 ```ShellSession
 cbpi@ubuntu-vbox:~/bin $ python echo.py 
-connected to:  ('192.168.41.2', 59902)
+connected to:  ('192.168.41.2', 61214)
 ```
 
 - Клиент:
